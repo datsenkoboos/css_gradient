@@ -1,24 +1,7 @@
-# random_css_gradient
+# Random-CSS-Gradient
 
-## Project setup
-```
-npm install
-```
+<h3>Preview: https://datsenkoboos.github.io/Random-CSS-Gradient/</h3>
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Simple CSS gradient generator.
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+22.06.22

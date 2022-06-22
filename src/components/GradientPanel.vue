@@ -13,7 +13,7 @@
 
     <DefaultButton
         :class="copy ? 'copy-button_active' : 'copy-button'"
-        @click="emit('copyGradient')"
+        @click="copyGradient"
     >
         {{ copy ? 'Copied!' : 'Copy' }}
     </DefaultButton>
@@ -25,12 +25,25 @@ import { inject, } from 'vue'
 import DefaultButton from './UI/DefaultButton.vue';
 import GradientInput from './GradientInput.vue'
 
+import throttle from '@/composables/FunctionThrottle';
+
 const copy = inject('copy')
 const emit = defineEmits(['changeGradient', 'copyGradient'])
 
 function changeGradient(value) {
     emit('changeGradient', value)
 }
+
+const copyGradient = throttle(() => {
+    emit('copyGradient')
+    console.log('2')
+    
+    }, 750)
+
+// function copyGradient() {
+//     console.log(11)
+//     // emit('copyGradient')
+// }
 </script>
 
 <style lang="scss" scoped>

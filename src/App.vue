@@ -1,6 +1,6 @@
 <template>
   <GradientPanel
-    v-show="!isMobile"
+    v-if="!isMobile"
     @copy-gradient="copyGradient"
     @change-gradient="randomGradientValues"
   />
@@ -10,7 +10,7 @@
   >
   </div>
   <GradientPanelMobile
-    v-show="isMobile"
+    v-if="isMobile"
     @copy-gradient="copyGradient"
     @change-gradient="randomGradientValues"
   />

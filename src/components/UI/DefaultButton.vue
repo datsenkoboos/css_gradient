@@ -31,5 +31,7 @@ import {  } from 'vue'
 
   padding: 3px 10px;
   box-sizing: border-box;
+
+  user-select: none;
 }
 </style>

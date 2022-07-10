@@ -1,6 +1,6 @@
 # Random-CSS-Gradient
 
-<h3>Preview: https://datsenkoboos.github.io/Random-CSS-Gradient/</h3>
+<h3>Preview: https://datsenkoboos.github.io/css_gradient/</h3>
 
 Simple CSS gradient generator.
 

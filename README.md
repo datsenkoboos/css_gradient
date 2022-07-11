@@ -1,4 +1,4 @@
-# Random-CSS-Gradient
+# css_gradient
 
 <h3>Preview: https://datsenkoboos.github.io/css_gradient/</h3>
 
